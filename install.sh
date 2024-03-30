@@ -32,7 +32,7 @@ fi
 
 # Strip any `-dev` that the version might contain, because Typst doesn't *actually* support
 # Semver...
-install_dir=$TYPST_LOCAL_PACKAGES/phd-template/$(cat VERSION | cut -d '-' -f 1 )
+install_dir=$TYPST_LOCAL_PACKAGES/cross/$(cat VERSION | cut -d '-' -f 1 )
 print_info "Installing local Typst package at '$install_dir'..."
 
 if [ -d $install_dir ]; then

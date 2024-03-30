@@ -1,0 +1,24 @@
+title = "Simple crossword"
+author = "Author"
+
+board = """
+TEST#
+#TEST
+TEST#
+#TEST
+"""
+
+[[clues.across]]
+row = 1
+column = 1
+clue = '_"\_\_ program"_'
+
+[[clues.across]]
+row = 2
+column = 2
+clue = '\_\_ program 2'
+
+[[clues.down]]
+row = 1
+column = 2
+clue = '"\_\_ the extraterrestrial" doubled'

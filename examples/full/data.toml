@@ -1,0 +1,499 @@
+# Taken from a crossword I made.
+
+title = "Saturday 30 March, 2024"
+author = "Dimitri Kokkonis"
+
+
+board = """
+QUADRILATERAL#A###
+U#DO#BEDRID#CARPET
+OMAN#MM#I##L#CT##E
+R#M#J#ODENKIRK###A
+A##BAONE#DIVISIONS
+##FUZZING#LIP#IVRE
+#RITZY#IA#LDP##E#R
+TIN##MUESLI#L#LRB#
+#COMMAND#INGENIEUR
+LO#U#NE#ANGA##FADO
+ICK#ADA#AT##H#TT#A
+SHE#PIRATED#IO#EIC
+PER#TATS#REARPORCH
+#TBH#SHURE#SOL##U#
+T#EU###RARE#HI####
+OIRNC##ANR#MIT#AFT
+EPOCH#P#DONOTENTER
+SASHIMI##RIBOSOME#
+"""
+
+
+[[clues.across]]
+row = 1
+column = 1
+clue = '_ Cowboy_ (2016 video game)'
+
+[[clues.across]]
+row = 2
+column = 3
+clue = 'A semitone above si'
+
+[[clues.across]]
+row = 2
+column = 6
+clue = 'Very ill'
+
+[[clues.across]]
+row = 2
+column = 13
+clue = 'The subject of many a cleaning video'
+
+[[clues.across]]
+row = 3
+column = 1
+clue = 'Neighbor of Yemen'
+
+[[clues.across]]
+row = 3
+column = 6
+clue = 'Meter submultiple'
+
+[[clues.across]]
+row = 3
+column = 14
+clue = 'Type of scan'
+
+[[clues.across]]
+row = 4
+column = 7
+clue = 'Bob of _Breaking Bad_ fame'
+
+[[clues.across]]
+row = 5
+column = 4
+clue = 'Commune in Padova'
+
+[[clues.across]]
+row = 5
+column = 10
+clue = 'Teams in a big company'
+
+[[clues.across]]
+row = 6
+column = 3
+clue = 'Dynamic analysis technique in software engineering'
+
+[[clues.across]]
+row = 6
+column = 11
+clue = 'Edge or rim'
+
+[[clues.across]]
+row = 6
+column = 15
+clue = 'French dunkard'
+
+[[clues.across]]
+row = 7
+column = 2
+clue = 'Fancy'
+
+[[clues.across]]
+row = 7
+column = 8
+clue = 'French artificial intelligence'
+
+[[clues.across]]
+row = 8
+column = 1
+clue = 'Forms various alloys'
+
+[[clues.across]]
+row = 8
+column = 6
+clue = 'Popular German breakfast'
+
+[[clues.across]]
+row = 9
+column = 2
+clue = '_\_\_ and Control_, by Eric Schlosser'
+
+[[clues.across]]
+row = 9
+column = 10
+clue = 'French engineer'
+
+[[clues.across]]
+row = 10
+column = 1
+clue = 'Opposite of 73-Across'
+
+[[clues.across]]
+row = 10
+column = 6
+clue = 'Up and to the right (on a map)'
+
+[[clues.across]]
+row = 10
+column = 9
+clue = 'Ancient kingdom of India'
+
+[[clues.across]]
+row = 10
+column = 15
+clue = 'Portuguese music genre'
+
+[[clues.across]]
+row = 11
+column = 1
+clue = '_"Gives me the \_\_"_'
+
+[[clues.across]]
+row = 11
+column = 5
+clue = 'Lady Lovelace'
+
+[[clues.across]]
+row = 11
+column = 9
+clue = '\@'
+
+[[clues.across]]
+row = 12
+column = 1
+clue = 'Her'
+
+[[clues.across]]
+row = 12
+column = 5
+clue = 'Like Adobe software usually is'
+
+[[clues.across]]
+row = 12
+column = 13
+clue = 'Input/output'
+
+[[clues.across]]
+row = 13
+column = 1
+clue = 'Used in ratios'
+
+[[clues.across]]
+row = 13
+column = 5
+clue = 'Permanent ink markings (affectionately)'
+
+[[clues.across]]
+row = 13
+column = 10
+clue = 'Perfect place to enjoy a mint julep'
+
+[[clues.across]]
+row = 14
+column = 2
+clue = '''Texter's "frankly"'''
+
+[[clues.across]]
+row = 14
+column = 6
+clue = 'Microphone brand'
+
+[[clues.across]]
+row = 14
+column = 12
+clue = 'Martian day'
+
+[[clues.across]]
+row = 15
+column = 3
+clue = 'Has 27 members'
+
+[[clues.across]]
+row = 15
+column = 8
+clue = 'Uncommon'
+
+[[clues.across]]
+row = 15
+column = 13
+clue = 'Opposite of 45-Across'
+
+[[clues.across]]
+row = 16
+column = 8
+clue = 'French funding agency for research'
+
+[[clues.across]]
+row = 16
+column = 12
+clue = 'Research university with a famous AI lab'
+
+[[clues.across]]
+row = 16
+column = 16
+clue = 'Opposite of front'
+
+[[clues.across]]
+row = 17
+column = 1
+clue = 'Period of time'
+
+[[clues.across]]
+row = 17
+column = 9
+clue = '_"ACCESS RESTRICTED"_'
+
+[[clues.across]]
+row = 18
+column = 1
+clue = 'Thinly sliced fish'
+
+[[clues.across]]
+row = 18
+column = 10
+clue = 'Amino acid linker'
+
+
+
+[[clues.down]]
+row = 1
+column = 1
+clue = 'Less-used Q&A platform'
+
+[[clues.down]]
+row = 1
+column = 3
+clue = 'First human'
+
+[[clues.down]]
+row = 1
+column = 4
+clue = '''Mozart's _Giovanni_'''
+
+[[clues.down]]
+row = 1
+column = 6
+clue = 'Well-known technology company'
+
+[[clues.down]]
+row = 1
+column = 7
+clue = 'Greek lemon'
+
+[[clues.down]]
+row = 1
+column = 8
+clue = '_"Per aspera \_\_ astra"_ (Latin)'
+
+[[clues.down]]
+row = 1
+column = 9
+clue = 'Tree-like data structure'
+
+[[clues.down]]
+row = 1
+column = 10
+clue = '''IQ's cousin'''
+
+[[clues.down]]
+row = 1
+column = 11
+clue = 'Often seen on street signs in the US'
+
+[[clues.down]]
+row = 1
+column = 15
+clue = '_"Cooking: science or \_\_?"_'
+
+[[clues.down]]
+row = 2
+column = 14
+clue = 'Acknowledgements (in networking)'
+
+[[clues.down]]
+row = 2
+column = 18
+clue = 'Short video announcing a new movie or show'
+
+[[clues.down]]
+row = 3
+column = 12
+clue = 'Furious'
+
+[[clues.down]]
+row = 4
+column = 5
+clue = 'Improvisation-heavy music genre'
+
+[[clues.down]]
+row = 4
+column = 8
+clue = 'Rejected'
+
+[[clues.down]]
+row = 4
+column = 11
+clue = '(Terminating) a process'
+
+[[clues.down]]
+row = 4
+column = 13
+clue = '\_\_ effect'
+
+[[clues.down]]
+row = 5
+column = 4
+clue = 'However'
+
+[[clues.down]]
+row = 5
+column = 6
+clue = 'King of Kings'
+
+[[clues.down]]
+row = 5
+column = 16
+clue = 'Person with an eating disorder'
+
+[[clues.down]]
+row = 6
+column = 3
+clue = '_"In \_\_"_ (Latin)'
+
+[[clues.down]]
+row = 6
+column = 9
+clue = '''_"We're outta \_\_ !"_'''
+
+[[clues.down]]
+row = 7
+column = 2
+clue = 'Bounce off of'
+
+[[clues.down]]
+row = 8
+column = 7
+clue = 'Dig up'
+
+[[clues.down]]
+row = 8
+column = 10
+clue = 'Caused by bad code or a huge chunk of cotton fiber'
+
+[[clues.down]]
+row = 8
+column = 15
+clue = 'Generated by wings'
+
+[[clues.down]]
+row = 8
+column = 17
+clue = 'Part of a plant'
+
+[[clues.down]]
+row = 9
+column = 4
+clue = '$mu$'
+
+[[clues.down]]
+row = 9
+column = 18
+clue = 'Radiation-proof'
+
+[[clues.down]]
+row = 10
+column = 1
+clue = 'Speech impediment & programming language'
+
+[[clues.down]]
+row = 11
+column = 3
+clue = 'Guard of the Underworld & authentication protocol developed in 77-Across'
+
+[[clues.down]]
+row = 11
+column = 5
+clue = 'Fit'
+
+[[clues.down]]
+row = 11
+column = 13
+clue = 'Emperor who spoke of "cruel bombs"'
+
+[[clues.down]]
+row = 12
+column = 8
+clue = 'Class of Sanskrit religious being'
+
+[[clues.down]]
+row = 12
+column = 11
+clue = '_Dominic \_\_ Coco_ of Inglourious Basterds fame'
+
+[[clues.down]]
+row = 12
+column = 14
+clue = 'Ancient Greek foot soldiers (in Greek)'
+
+[[clues.down]]
+row = 12
+column = 17
+clue = 'Part of a hospital'
+
+[[clues.down]]
+row = 13
+column = 12
+clue = 'Like'
+
+[[clues.down]]
+row = 14
+column = 4
+clue = 'Comes from your gut?'
+
+[[clues.down]]
+row = 14
+column = 9
+clue = 'Author of _Atlas Shrugged_'
+
+[[clues.down]]
+row = 15
+column = 1
+clue = 'Foot fingers'
+
+[[clues.down]]
+row = 16
+column = 2
+clue = 'Beer type'
+
+[[clues.down]]
+row = 16
+column = 5
+clue = '$chi$'
+
+[[clues.down]]
+row = 16
+column = 12
+clue = 'Like the Corleone family'
+
+[[clues.down]]
+row = 16
+column = 16
+clue = 'Cash dispenser'
+
+[[clues.down]]
+row = 16
+column = 17
+clue = 'Cost'
+
+[[clues.down]]
+row = 17
+column = 7
+clue = 'Famous irrational number'
+
+[[clues.down]]
+row = 17
+column = 11
+clue = '_"We are the knights who say \_\_ !"_'
+
+[[clues.down]]
+row = 17
+column = 15
+clue = 'Negative'
