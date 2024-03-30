@@ -1,6 +1,6 @@
 [package]
 name = "cross"
-version = "0.0.1"
+version = "0.0.2"
 entrypoint = "src/lib.typ"
 authors = ["Dimitri Kokkonis (kokkonisd@gmail.com)"]
 license = "Unlicense"
