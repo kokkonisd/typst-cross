@@ -4,7 +4,7 @@
 
 #cross.single_page(
     crossword_data,
-    show_solution: false, 
+    show_solution: false,
     show_cell_coordinates: false,
     cell_size: 23pt,
     letter_size: 7pt,
