@@ -34,7 +34,7 @@
 // (
 //     width: 100,            // Width of the board.
 //     height: 80,            // Height of the board.
-//     next_cell_number: 42,  // Number to mark next clue-starting cell with (internal use mostly).
+//     next-cell-number: 42,  // Number to mark next clue-starting cell with (internal use mostly).
 //     cells: (
 //         (
 //             letter: "A",   // Letter contained in the cell.
@@ -45,7 +45,7 @@
 //     )
 // )
 // ```
-#let _process_data(data) = {
+#let _process-data(data) = {
     let width = data.board.position("\n")
     let height = data.board.split("\n").filter(n => n.len() > 0).len()
 
@@ -53,38 +53,38 @@
         (
             width: width,
             height: height,
-            next_cell_number: 1,
+            next-cell-number: 1,
             cells: ()
         ),
         (state, (index, letter)) => {
             let row = int(index / width) + 1
             let column = (index - ((row - 1) * width)) + 1
-            let next_cell_number = state.next_cell_number
+            let next-cell-number = state.next-cell-number
 
-            let new_cell = (letter: none, number: none, row: row, column: column)
+            let new-cell = (letter: none, number: none, row: row, column: column)
 
             if data.clues.across.find(clue => {
                 clue.row == row and clue.column == column
             }) != none {
-                new_cell.letter = letter
-                new_cell.number = state.next_cell_number
-                next_cell_number = state.next_cell_number + 1
+                new-cell.letter = letter
+                new-cell.number = state.next-cell-number
+                next-cell-number = state.next-cell-number + 1
             } else if data.clues.down.find(clue => {
                 clue.row == row and clue.column == column
             }) != none {
-                new_cell.letter = letter
-                new_cell.number = state.next_cell_number
-                next_cell_number = state.next_cell_number + 1
+                new-cell.letter = letter
+                new-cell.number = state.next-cell-number
+                next-cell-number = state.next-cell-number + 1
             } else {
-                new_cell.letter = letter
-                new_cell.number = none
+                new-cell.letter = letter
+                new-cell.number = none
             }
 
             (
                 width: width,
                 height: height,
-                next_cell_number: next_cell_number,
-                cells: (..state.cells, new_cell)
+                next-cell-number: next-cell-number,
+                cells: (..state.cells, new-cell)
             )
         }
     )

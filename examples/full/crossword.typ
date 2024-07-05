@@ -1,14 +1,14 @@
-#import "@local/cross:0.0.1" as cross
+#import "@local/cross:0.0.2" as cross
 
-#let crossword_data = toml("data.toml")
+#let crossword-data = toml("data.toml")
 
-#cross.single_page(
-    crossword_data,
-    show_solution: false,
-    show_cell_coordinates: false,
-    cell_size: 23pt,
-    letter_size: 7pt,
-    number_size: 5pt,
+#cross.single-page(
+    crossword-data,
+    show-solution: false,
+    show-cell-coordinates: false,
+    cell-size: 23pt,
+    letter-size: 7pt,
+    number-size: 5pt,
     margin: 0.2cm,
-    clue_columns: 3,
+    clue-columns: 3,
 )

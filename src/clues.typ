@@ -10,10 +10,10 @@
 // Parameters:
 // - `clues`: the dictionary of clues as found in the TOML file.
 // - `data`: the data of the TOML file (that will be processed).
-#let _clues_list(clues, data) = {
+#let _clues-list(clues, data) = {
     enum(
         ..clues.map(clue => {
-            let number = _process_data(data).cells.find(cell => {
+            let number = _process-data(data).cells.find(cell => {
                 cell.row == clue.row and cell.column == clue.column
             }).number
 
@@ -26,13 +26,13 @@
 }
 
 // Produce the enumerated list of the "across" clues.
-#let clues_across(data) = {
-    _clues_list(data.clues.across, data)
+#let clues-across(data) = {
+    _clues-list(data.clues.across, data)
 }
 
 // Produce the enumerated list of the "down" clues.
-#let clues_down(data) = {
-    _clues_list(data.clues.down, data)
+#let clues-down(data) = {
+    _clues-list(data.clues.down, data)
 }
 
 // Produce a two-column display of both "across" and "down" clues, with headers.
@@ -41,11 +41,11 @@
     gutter: 10pt,
     block[
         = Across
-        #clues_across(data)
+        #clues-across(data)
     ],
     block(line(start: (0%, 0%), end: (0%, 100%))),
     block[
         = Down
-        #clues_down(data)
+        #clues-down(data)
     ],
 )
